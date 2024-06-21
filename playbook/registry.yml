@@ -1,0 +1,7 @@
+---
+- name: Docker Registry
+  hosts: all
+  become: true
+
+  roles:
+    - docker_with_compose
